@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:url("Bg-image.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: block;
+}
+
+.Heading{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    width: 90%;
+}
+
+#MainHead{
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    text-shadow: 2px 2px #000;
+    
+}
+
+#SubHead{
+    font-size: 20px;
+    margin-top: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: rgb(119, 0, 0) underline;
+}
+
+#entry{
+    width:90%;
+    margin: auto;
+}
+
+form{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: system-ui, sans-serif;
+    line-height: 1.3;
+    width: 54%;
+    padding: 1rem 2rem;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 60px;
+    display:block;
+    align-items: center;
+    justify-content: center;
+}
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    form{
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(2px);
+      background-color: rgba(70, 58, 58, 0.5);
+    }
+    form .box{
+      -webkit-backdrop-filter: blur(2px);
+      backdrop-filter: blur(1px);
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+    #Inputfile{
+      -webkit-backdrop-filter: blur(2px);
+      backdrop-filter: blur(1px);
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+    #comment{
+      -webkit-backdrop-filter: blur(2px);
+      backdrop-filter: blur(1px);
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+form .box{
+    width: 100%;
+    height: 1cm;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+}
+
+::placeholder{
+    color:rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.labels{
+    font-size: 15pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px rgb(41, 38, 38);
+}
+
+#Inputfile{
+    width: 97%;
+    height: 1cm;
+    position: relative;
+    border: 0;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+    color: rgb(0, 0, 0);
+}
+
+textarea{
+    width: 97%;
+    height: 1cm;
+    padding-left: 10px;
+    padding-top: 8px;
+    border-radius: 5px;
+}
+
+.button1{
+    width: 98.5%;
+    height: 1cm;
+    position: relative;
+    background-color: rgb(23, 190, 45);
+    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button2{
+    width: 98.5%;
+    height: 1cm;
+    position: relative;
+    background-color: rgba(255, 0, 0, 0.541);
+    border: none;
+    color: #000;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

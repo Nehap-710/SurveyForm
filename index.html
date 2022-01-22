@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Internship Survey Form</title>
+</head>
+<body>
+    <form>
+        <div class="Heading">
+            <h1 id="MainHead">Internship Survey form</h1>
+            <h2 id="SubHead">Please enter the correct details as this will be used for evaluation</h2>
+        </div><br><br>
+        <!-- Entry Values-->
+        <div id="entry">
+            <label class="labels">Name</label> <br><br>
+            <input type="name" name="name" placeholder="Enter your name" class="box"><br><br>
+            
+            <label class="labels">Email</label> <br><br>
+            <input type="email" name="email" placeholder="Please enter only College mail address" class="box"><br><br>
+            
+            <label class="labels">PID</label> <br><br>
+            <input type="text" name="PIDnumber" placeholder="Enter your PID" class="box"><br><br>
+            
+            <label class="labels">Class</label> <br><br>
+            <input type="radio" id="class1" name="class" value="TECMPNA">
+            <label for="class1">TECMPNA</label><br/>
+            <input type="radio" id="class2" name="class" value="TECMPNB">
+            <label for="class2">TECMPNB</label><br><br>
+
+            <label class="labels">Contact No</label> <br><br>
+            <input type="tel" name="phone" placeholder="Enter your contact number" class="box"><br><br>
+
+            <label class="labels">Are you currently doing any internship ?</label> <br><br> 
+            <input type="radio" id="yes" name="current" value="YES">
+            <label for="yes">YES</label><br/>
+            <input type="radio" id="no" name="current" value="NO">
+            <label for="no">NO</label><br><br>
+
+            <label class="labels">What type of internship are you interested in ?</label> <br><br>
+            <input type="radio" id="interest1" name="interest" value="Work-from-Home">
+            <label for="interest1">Work from Home</label><br/>
+            <input type="radio" id="interest2" name="interest" value="On-site">
+            <label for="interest2">On-site</label><br><br>
+
+            <label class="labels">Which feild you are interested In? </label><br><br>
+            <input type="checkbox" id="feild1" name="feild1" value="App-Development">
+            <label for="feild1">App Development</label><br/>
+            <input type="checkbox" id="feild2" name="feild2" value="Web-Development">
+            <label for="feild2">Web Development</label><br/>
+            <input type="checkbox" id="feild3" name="feild3" value="Database-Management-System">
+            <label for="feild3">Database Management System</label><br/>
+            <input type="checkbox" id="feild4" name="feild4" value="Designing">
+            <label for="feild4">Designing</label><br><br>
+
+            <label class="labels">What skills do you know ?</label><br><br>
+            <input type="checkbox" id="skill1" name="skill1" value="HTML-CSS-Javascript">
+            <label for="skill1">HTML, CSS, Javascript</label><br/>
+            <input type="checkbox" id="skill2" name="skill2" value="Python">
+            <label for="skill2">Python</label><br/>
+            <input type="checkbox" id="skill3" name="skill3" value="Java(Android)">
+            <label for="skill3">Java(Android)</label><br/>
+            <input type="checkbox" id="skill4" name="skill4" value="Java(Desktop)">
+            <label for="skill4">Java(Desktop)</label><br/>
+            <input type="checkbox" id="skill5" name="skill5" value="Devops">
+            <label for="skill5">Devops</label><br/>
+            <input type="checkbox" id="skill6" name="skill6" value="Flutter&Dart(Android/iOS)">
+            <label for="skill6">Flutter and Dart (Android / iOS)</label><br/>
+            <input type="checkbox" id="skill7" name="skill7" value="ReactJS">
+            <label for="skill7">React JS</label><br/>
+            <input type="checkbox" id="skill8" name="skill8" value="Firebase">
+            <label for="skill8">Firebase</label><br/>
+            <input type="checkbox" id="skill9" name="skill9" value="MongoDB">
+            <label for="skill9">Mongo DB</label><br/>
+            <input type="checkbox" id="skill10" name="skill10" value="SQL/MySQL/PostgreSQL">
+            <label for="skill10">SQL / MySQL / PostgreSQL</label><br/>
+            <input type="checkbox" id="skill11" name="skill11" value="UI/UX Designing">
+            <label for="skill11">UI/UX Designing</label><br/>
+            <input type="checkbox" id="skill12" name="skill12" value="Graphic Designing">
+            <label for="skill12">Graphic Designing</label><br> <br>
+
+            <label for="CV" class="labels">Upload your resume</label><br><br>
+            <div id="Inputfile">
+                <input type="file" id="CV" name="CV" multiple><br><br>
+            </div><br/>
+            
+            <label class="labels">Do you have any problem in finding an Internship ?</label><br><br>
+            <textarea id="comment" placeholder="You can type here...."></textarea><br> <br>
+
+            <br><br> 
+            <input type="submit" class="button1" value="Submit"> <br> <br>
+            <input type="reset" class="button2" value="Reset">
+         </div>
+    </form>
+</body>
+</html>
